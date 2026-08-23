@@ -2,13 +2,16 @@ export type User = {
     id: number;
     name: string;
     email: string;
-    avatar?: string;
+    avatar_url: string | null;
+    portfolio_slug: string | null;
+    is_active: boolean;
+    is_public: boolean;
+    preferred_theme: string;
     email_verified_at: string | null;
-    created_at: string;
-    updated_at: string;
-    [key: string]: unknown; // This allows for additional properties...
 };
 
 export type Auth = {
-    user: User;
+    user: User | null;
+    roles: string[];
+    permissions: string[];
 };
