@@ -16,6 +16,10 @@
 
 ---
 
+## Preview
+
+![Resume Builder and Portfolio CMS homepage](docs/screenshots/homepage.png)
+
 ## 🧱 Tech Stack
 
 | Layer | Technology | Purpose in This Project |
